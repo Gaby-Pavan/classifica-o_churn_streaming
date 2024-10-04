@@ -1,4 +1,4 @@
-# classifica-o_churn_streaming
+# classificacao_churn_streaming
 Projeto em andamento
 
 Nesse projeto utilizarei um modelo de classificação para mapear o perfil de usuários e prever quais tem mais chances de deixar a plataforma de streaming. 
