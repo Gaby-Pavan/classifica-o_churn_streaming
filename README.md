@@ -1,9 +1,10 @@
 # classificacao_churn_streaming
-Projeto em andamento
 
 Nesse projeto utilizarei um modelo de classificação para mapear o perfil de usuários e prever quais tem mais chances de deixar a plataforma de streaming. 
 A base de dados foi retirada do Kaggle, possui informações sobre as contas dos clientes na plataforma, divididos entre contas Basic, Standard e Premium onde
 cada uma oferece uma gama maior de serviços do que a anterior.
+
+Vamos testar dois modelos de classificação, Logistic Regression e Random Forest Classifier, avaliar as métricas para escolher o melhor modelo.
 
 ### Importando Bibliotecas
 ```
@@ -206,7 +207,9 @@ F1 Score(Teste): 0.5591397849462365
 ROC AUC (Treino): 0.9344962197211825
 ROC AUC(Teste): 0.8342118784063268
 
+## Conclusão
 
+O Random Forest Classifier depois de utilizado o Grid Search para otimizar os hiperparâmetros, se mostrou o melhor modelo para previsão de Churn nesse caso
 
 
 
